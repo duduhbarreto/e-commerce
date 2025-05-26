@@ -28,8 +28,7 @@ sistema-ecommerce/
 ├── docs/
 │   └── setup_e_execucao.py              # Documentação de configuração
 ├── .gitignore
-├── requirements.txt                     # Dependências básicas
-├── requirements_completo.txt            # 📦 NOVO: Dependências completas
+├── requirements.txt                     # Dependências básicas        
 ├── executar_todos_testes.py             # 🚀 NOVO: Script execução automática
 ├── run_tests.py                         # Script execução simples
 └── README_COMPLETO.md                   # 📖 NOVO: Este arquivo
@@ -53,7 +52,7 @@ venv\Scripts\activate
 source venv/bin/activate
 
 # Instalar dependências COMPLETAS
-pip install -r requirements_completo.txt
+pip install -r requirements.txt
 ```
 
 ### 2️⃣ **Execução Automática (RECOMENDADO)**

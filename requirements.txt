@@ -1,31 +1,19 @@
-# requirements.txt - Dependências completas do projeto
-# Questões para Implementação de Testes do Sistema de E-commerce
-# Professor: Walter Felipe - TAC-3
+# requirements.txt - Sistema E-commerce TAC-3
+# Professor: Walter Felipe
 
-# ============= BIBLIOTECAS DE TESTE =============
+# ============= BIBLIOTECAS ESSENCIAIS =============
 pytest>=7.0.0
 pytest-cov>=4.0.0
-pytest-xdist>=3.0.0          # Para execução paralela de testes
-pytest-benchmark>=4.0.0      # Para testes de performance mais avançados
-pytest-mock>=3.10.0          # Extensões para mock no pytest
 
-# ============= BIBLIOTECAS PADRÃO (já incluídas no Python) =============
-# unittest - Já faz parte da biblioteca padrão do Python
-# threading - Já faz parte da biblioteca padrão do Python
-# concurrent.futures - Já faz parte da biblioteca padrão do Python
-# time - Já faz parte da biblioteca padrão do Python
-# uuid - Já faz parte da biblioteca padrão do Python
-# datetime - Já faz parte da biblioteca padrão do Python
-# enum - Já faz parte da biblioteca padrão do Python
-# typing - Já faz parte da biblioteca padrão do Python
+# ============= BIBLIOTECAS OPCIONAIS (para relatórios avançados) =============
+# Descomente se quiser recursos extras:
+# pytest-xdist>=3.0.0          # Para execução paralela
+# pytest-mock>=3.10.0          # Extensões mock (não obrigatório)
+# colorama>=0.4.6              # Para cores no terminal
 
-# ============= FERRAMENTAS DE ANÁLISE E QUALIDADE =============
-coverage>=7.0.0               # Para análise de cobertura de testes
-flake8>=6.0.0                # Para análise de código (PEP 8)
-black>=23.0.0                # Para formatação automática de código
-mypy>=1.0.0                  # Para verificação de tipos estáticos
-
-# ============= BIBLIOTECAS AUXILIARES OPCIONAIS =============
-colorama>=0.4.6              # Para saída colorida no terminal
-tabulate>=0.9.0              # Para formatação de tabelas nos relatórios
-psutil>=5.9.0                # Para monitoramento de recursos do sistema
+# ============= OBSERVAÇÕES =============
+# Bibliotecas já incluídas no Python (não precisam instalar):
+# - unittest (biblioteca padrão)
+# - threading (biblioteca padrão) 
+# - concurrent.futures (biblioteca padrão)
+# - time, uuid, datetime, enum (bibliotecas padrão)
